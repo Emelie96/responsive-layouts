@@ -135,3 +135,81 @@ body {
   max-width: 100%;
   align-self: flex-start;
 }
+
+@media only screen and (max-width: 768px) {
+  /*Medium devices(landscape tablets, 768px and down*/
+  .container {
+    min-width: 375px;
+  }
+
+  .section-a {
+    padding: 4em;
+  }
+
+  .section-a h1 {
+    font-size: 40px;
+  }
+
+  .section-b {
+    padding: 4em;
+  }
+
+  .section-b-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-text {
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .p-text + .p-text {
+    margin-left: 0em;
+  }
+
+  .section-c {
+    padding: 4em;
+  }
+
+  .section-c-body {
+    flex-direction: column;
+  }
+
+  .c-one + .c-one,
+  .d-one + .d-one {
+    margin-left: 0em;
+  }
+
+  .c-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dawn {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  .section-d {
+  }
+
+  .section-d-body {
+    display: grid;
+    padding: 4em;
+    text-align: center;
+  }
+
+  .d-text {
+    grid-row: 1/1;
+    margin: 0 auto !important;
+    width: 100%;
+  }
+
+  .dawn2 {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+}
